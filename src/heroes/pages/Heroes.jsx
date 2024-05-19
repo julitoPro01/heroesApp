@@ -17,7 +17,7 @@ export const Heroes = () => {
      return <Navigate to={'/marvel'} />
     }
     
-    const imgHeroes ='/src/assets/heroes/'+parms.id+'.jpg'
+    const imgHeroes ='/assets/heroes/'+parms.id+'.jpg'
 
    
   return (

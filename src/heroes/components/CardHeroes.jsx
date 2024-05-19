@@ -9,10 +9,9 @@ export const CardHeroes = ({id
     ,first_appearance
     ,characters}) => {
        
-        const imgHeroes ='/src/assets/heroes/'+id+'.jpg'
+        const imgHeroes ='/assets/heroes/'+id+'.jpg'
     return (
-        // <div className="card">
-        //     </div>
+       
 
         <div className="card item-card mt-2 border-0 animate__animated animate__fadeIn" id={id}>
             <div className="card-body border " style={{paddingBottom:'50px'}}>

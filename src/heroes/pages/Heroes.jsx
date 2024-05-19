@@ -13,11 +13,12 @@ export const Heroes = () => {
     navigate(-1);
    }
    
+   const imgHeroes ='./assets/heroes/'+parms.id+'.jpg'
+   
    if(!OneHoero){
      return <Navigate to={'/marvel'} />
     }
     
-    const imgHeroes ='./heroes/'+parms.id+'.jpg'
 
    
   return (

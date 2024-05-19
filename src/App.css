@@ -1,0 +1,12 @@
+#root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content-body{
+    flex: 1;
+    box-sizing: content-box;
+}
+

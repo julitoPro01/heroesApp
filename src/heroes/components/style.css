@@ -1,0 +1,8 @@
+
+.item-container{
+    box-sizing: content-box;
+}
+.item-card{
+ display: flex;
+ justify-content: space-between;
+}

@@ -9,7 +9,7 @@ export const CardHeroes = ({id
     ,first_appearance
     ,characters}) => {
        
-        const imgHeroes ='/assets/heroes/'+id+'.jpg'
+        const imgHeroes ='/heroes/'+id+'.jpg'
     return (
        
 

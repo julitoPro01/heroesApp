@@ -15,4 +15,5 @@ Una aplicación web que muestra una lista de superhéroes de Marvel y DC en vari
 - **TypeScript:** Para garantizar la tipificación estática y mejorar la escalabilidad del código.
 - **React Router DOM:** Para la navegación entre las páginas.
 - **Query String:** Para gestionar los parámetros de búsqueda en la URL.
+- **animate:** Para animar de la entrada de una carta la pagina detalles.
 

@@ -4,7 +4,7 @@ import { getHeroeById } from "../helpers/getHeroeById";
 export const Heroes = () => {
 
    const parms = useParams();
-
+    console.log(parms)
    const OneHoero = getHeroeById(parms.id);
 
    const navigate =useNavigate()
@@ -13,7 +13,7 @@ export const Heroes = () => {
     navigate(-1);
    }
    
-   const imgHeroes ='./assets/heroes/'+parms.id+'.jpg'
+   const imgHeroes ='./../assets/heroes/'+parms.id+'.jpg'
    
    if(!OneHoero){
      return <Navigate to={'/marvel'} />

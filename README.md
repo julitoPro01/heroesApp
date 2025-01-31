@@ -16,4 +16,5 @@ Una aplicación web que muestra una lista de superhéroes de Marvel y DC en vari
 - **React Router DOM:** Para la navegación entre las páginas.
 - **Query String:** Para gestionar los parámetros de búsqueda en la URL.
 - **animate:** Para animar de la entrada de una carta la pagina detalles.
+- **Bootstrap:** Estilos dinámicas.
 
